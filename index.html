@@ -41,6 +41,17 @@
 function clickTrigger() {
    let userInput = createItem.value;
 
+   let items = shopList.querySelectorAll("li span");
+  for (let item of items) {
+    if (item.textContent === userInput) {
+      alert("Duplicate items not allowed!");
+      createItem.value = ""; 
+      createItem.focus(); 
+      return; 
+    }
+  }
+
+
    let listItem = document.createElement('li');
    let listOption = document.createElement("span");
    let deleteAction = document.createElement('button');
