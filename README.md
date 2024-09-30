@@ -10,14 +10,12 @@ A simple shopping list app that allows users to add items, delete them, and prev
 
 ## Screenshots
 
-### Add Items Feature
-![Add Items](path-to-your-image/add-items-feature.png)
+### Add Items Feature and Duplicate item Prevention
+![Add Items/Duplicate Item](./images/add%20and%20duplicate%20item%20check.png)
 
 ### Delete Items Feature
-![Delete Items](path-to-your-image/delete-items-feature.png)
+![Delete Items](./images/delete%20items.png)
 
-### Duplicate Items Prevention
-![Duplicate Items](path-to-your-image/duplicate-items-feature.png)
 
 ## How to Use
 
